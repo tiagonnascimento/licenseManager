@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- What is the product license that you want to keep track of the purchase conditions --></help>
+    <label><!-- Product License --></label>
+    <name>ProductLicense__c</name>
+    <relationshipLabel><!-- Product License Purchase Conditions --></relationshipLabel>
+</CustomFieldTranslation>

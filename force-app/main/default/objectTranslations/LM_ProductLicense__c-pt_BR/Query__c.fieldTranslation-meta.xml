@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- SOQL query to be used to determine which are the users that will be assigned to this product license. This query can take in consideration a number of factors, such as profile, permission set assignments and other user characteristics. --></help>
+    <label><!-- Query --></label>
+    <name>Query__c</name>
+</CustomFieldTranslation>

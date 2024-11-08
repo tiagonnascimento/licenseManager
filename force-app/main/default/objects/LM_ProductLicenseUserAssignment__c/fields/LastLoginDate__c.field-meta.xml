@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LastLoginDate__c</fullName>
+    <description>Last date where the user associated with this assignment logged in as per the last execution of the assignments jobs.</description>
+    <inlineHelpText>Last date where the user associated with this assignment logged in as per the last execution of the assignments jobs.</inlineHelpText>
+    <label>Last Login Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

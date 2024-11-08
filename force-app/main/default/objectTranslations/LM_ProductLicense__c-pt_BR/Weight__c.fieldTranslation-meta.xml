@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Weight of this product license. In case of users satisfying the criteria to be in more than one base product license, this weight would determine what would be the product license assigned to the user. The more weighted license will be used to the assignment. --></help>
+    <label><!-- Weight --></label>
+    <name>Weight__c</name>
+</CustomFieldTranslation>

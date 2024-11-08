@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Insert the product license associated with this assignment --></help>
+    <label><!-- Product License --></label>
+    <name>ProductLicense__c</name>
+    <relationshipLabel><!-- Product License User Assignments --></relationshipLabel>
+</CustomFieldTranslation>

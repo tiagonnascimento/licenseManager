@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Username of the user assigned to this product license. This is not a direct User lookup because of the multi-org capabilities of this app. --></help>
+    <label><!-- Username --></label>
+    <name>Username__c</name>
+</CustomFieldTranslation>

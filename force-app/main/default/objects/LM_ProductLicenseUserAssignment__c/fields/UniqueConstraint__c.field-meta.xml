@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UniqueConstraint__c</fullName>
+    <caseSensitive>true</caseSensitive>
+    <description>Field to be used to not allow for users to be assigned for more than one base license. The format of this field is the Username + &quot;_&quot; + Product License Type</description>
+    <externalId>true</externalId>
+    <inlineHelpText>Field to be used to not allow for users to be assigned for more than one base license.</inlineHelpText>
+    <label>Unique Constraint</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

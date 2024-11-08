@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AssignedQuantity__c</fullName>
+    <description>Rollup that shows the amount of activated and assigned users for this product license.</description>
+    <inlineHelpText>Rollup that shows the amount of activated and assigned users for this product license.</inlineHelpText>
+    <label>Assigned Quantity</label>
+    <summaryFilterItems>
+        <field>LM_ProductLicenseUserAssignment__c.IsActive__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>LM_ProductLicenseUserAssignment__c.ProductLicense__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProductLicense__c</fullName>
+    <description>Product License associated with this purchase condition</description>
+    <inlineHelpText>What is the product license that you want to keep track of the purchase conditions</inlineHelpText>
+    <label>Product License</label>
+    <referenceTo>LM_ProductLicense__c</referenceTo>
+    <relationshipLabel>Product License Purchase Conditions</relationshipLabel>
+    <relationshipName>Product_License_Hiring_Conditions</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>
