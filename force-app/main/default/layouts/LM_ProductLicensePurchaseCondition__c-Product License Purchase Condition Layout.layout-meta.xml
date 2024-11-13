@@ -45,7 +45,15 @@
                 <field>PurchaseDate__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
+                <field>ContractStartDate__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>ContractEndDate__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
                 <field>IsActive__c</field>
             </layoutItems>
         </layoutColumns>

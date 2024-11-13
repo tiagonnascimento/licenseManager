@@ -4,7 +4,7 @@
     <description>SOQL query to be used to determine which are the users that will be assigned to this product license. This query can take in consideration a number of factors, such as profile, permission set assignments and other user characteristics.</description>
     <inlineHelpText>SOQL query to be used to determine which are the users that will be assigned to this product license. This query can take in consideration a number of factors, such as profile, permission set assignments and other user characteristics.</inlineHelpText>
     <label>Query</label>
-    <length>32768</length>
+    <length>131072</length>
     <trackTrending>false</trackTrending>
     <type>LongTextArea</type>
     <visibleLines>3</visibleLines>

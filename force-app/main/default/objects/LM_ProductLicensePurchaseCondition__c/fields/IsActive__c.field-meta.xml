@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>IsActive__c</fullName>
-    <defaultValue>true</defaultValue>
-    <description>Determine whether this purchase is still valid.</description>
-    <inlineHelpText>Determine whether this purchase is still valid.</inlineHelpText>
+    <description>Formula that consolidates if the purchase is active for the current date</description>
+    <formula>AND(ContractStartDate__c  &lt;=  TODAY(), ContractEndDate__c &gt;=  TODAY())</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Formula that consolidates if the purchase is active for the current date</inlineHelpText>
     <label>Is Active</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>
