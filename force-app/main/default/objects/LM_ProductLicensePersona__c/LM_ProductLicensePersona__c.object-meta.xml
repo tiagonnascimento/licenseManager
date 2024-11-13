@@ -155,12 +155,12 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <gender>Feminine</gender>
-    <label>Price License Persona</label>
+    <label>Product License Persona</label>
     <nameField>
         <label>Persona Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Price License Personas</pluralLabel>
+    <pluralLabel>Product License Personas</pluralLabel>
     <searchLayouts></searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>

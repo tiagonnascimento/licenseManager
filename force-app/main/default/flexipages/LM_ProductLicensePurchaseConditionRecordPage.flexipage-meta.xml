@@ -96,6 +96,12 @@
                 <identifier>RecordPurchaseDate_cField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldItem>Record.IsActive__c</fieldItem>
+                <identifier>RecordIsActive__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-41eb3d71-758d-409a-be24-df078d9d7370</name>
         <type>Facet</type>
     </flexiPageRegions>
@@ -146,7 +152,7 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Contract_Start_Date__c</fieldItem>
+                <fieldItem>Record.ContractStartDate__c</fieldItem>
                 <identifier>RecordContract_Start_Date__cField</identifier>
             </fieldInstance>
         </itemInstances>
@@ -156,18 +162,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Contract_End_Date__c</fieldItem>
+                <fieldItem>Record.ContractEndDate__c</fieldItem>
                 <identifier>RecordContract_End_Date__cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Is_Active__c</fieldItem>
-                <identifier>RecordIs_Active__cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-7c5b60f9-464f-467d-bf82-6066e56f1424</name>

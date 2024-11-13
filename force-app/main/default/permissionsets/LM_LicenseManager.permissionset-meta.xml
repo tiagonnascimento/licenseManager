@@ -7,7 +7,17 @@
     <description>Permission Set to grant access to License Manager Lightning App</description>
     <fieldPermissions>
         <editable>true</editable>
+        <field>LM_ProductLicensePersona__c.Query__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>LM_ProductLicensePurchaseCondition__c.Domain__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LM_ProductLicensePurchaseCondition__c.IsActive__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -42,6 +52,15 @@
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>License Manager</label>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>LM_ProductLicensePersona__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>

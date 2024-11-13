@@ -5,8 +5,8 @@
     <inlineHelpText>Product License associated with this persona</inlineHelpText>
     <label>Product License</label>
     <referenceTo>LM_ProductLicense__c</referenceTo>
-    <relationshipLabel>Price License Personas</relationshipLabel>
-    <relationshipName>Price_License_Personas</relationshipName>
+    <relationshipLabel>Product License Personas</relationshipLabel>
+    <relationshipName>Product_License_Personas</relationshipName>
     <relationshipOrder>0</relationshipOrder>
     <reparentableMasterDetail>false</reparentableMasterDetail>
     <trackTrending>false</trackTrending>

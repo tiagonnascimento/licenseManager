@@ -258,9 +258,9 @@
         <name>sidebar</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>Price License Persona Record Page</masterLabel>
+    <masterLabel>Product License Persona Record Page</masterLabel>
     <parentFlexiPage>flexipage__default_rec_L</parentFlexiPage>
-    <sobjectType>LM_PriceLicensePersona__c</sobjectType>
+    <sobjectType>LM_ProductLicensePersona__c</sobjectType>
     <template>
         <name>flexipage:recordHomeTemplateDesktop</name>
     </template>

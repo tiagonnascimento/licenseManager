@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>IsActive__c</fullName>
-    <description>Formula that consolidates if the purchase is active for the current date</description>
-    <formula>AND(ContractStartDate__c  &lt;=  TODAY(), ContractEndDate__c &gt;=  TODAY())</formula>
-    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <inlineHelpText>Formula that consolidates if the purchase is active for the current date</inlineHelpText>
+    <defaultValue>true</defaultValue>
+    <description>Determine whether this purchase is valid and active to the date. Cannot be a formula based on Contract Start/End Date because it&apos;s used in the rolloup to Product License.</description>
+    <inlineHelpText>Mark if this purchase is valid and is active so the product license can be counted.</inlineHelpText>
     <label>Is Active</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

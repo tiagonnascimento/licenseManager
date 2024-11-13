@@ -6,9 +6,9 @@
     <label>Quantity</label>
     <summarizedField>LM_ProductLicensePurchaseCondition__c.Quantity__c</summarizedField>
     <summaryFilterItems>
-        <field>LM_ProductLicensePurchaseCondition__c.Contract_End_Date__c</field>
+        <field>LM_ProductLicensePurchaseCondition__c.IsActive__c</field>
         <operation>equals</operation>
-        <value>11/13/2024</value>
+        <value>True</value>
     </summaryFilterItems>
     <summaryForeignKey>LM_ProductLicensePurchaseCondition__c.ProductLicense__c</summaryForeignKey>
     <summaryOperation>sum</summaryOperation>
