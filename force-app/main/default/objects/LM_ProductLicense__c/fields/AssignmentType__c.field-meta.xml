@@ -6,7 +6,7 @@
     <inlineHelpText
   >Determine whether this is a named or a login based license.</inlineHelpText>
     <label>Assignment Type</label>
-    <required>true</required>
+    <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>

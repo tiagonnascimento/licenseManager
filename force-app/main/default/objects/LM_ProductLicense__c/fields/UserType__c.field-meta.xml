@@ -6,7 +6,7 @@
     <inlineHelpText
   >Determine whether this is an internal or external license.</inlineHelpText>
     <label>User Type</label>
-    <required>true</required>
+    <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>
