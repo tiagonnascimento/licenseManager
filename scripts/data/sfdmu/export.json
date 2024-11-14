@@ -1,0 +1,21 @@
+{
+  "objects": [
+    {
+      "operation": "Upsert",
+      "externalId": "Name",
+      "query": "SELECT Id, Name, Type__c, Weight__c, Quantity__c, UserType__c, AssignmentType__c FROM LM_ProductLicense__c"
+    },
+    {
+      "operation": "Upsert",
+      "query": "SELECT Id, Name, ProductLicense__c, Query__c FROM LM_ProductLicensePersona__c"
+    },
+    {
+      "operation": "Upsert",
+      "query": "SELECT Id, ProductLicense__c, Project__c, Domain__c, BoardOfDirectors__c, VicePresidency__c, Price__c, Quantity__c, PurchaseDate__c, ContractStartDate__c, ContractEndDate__c, IsActive__c FROM LM_ProductLicensePurchaseCondition__c"
+    },
+    {
+      "operation": "Upsert",
+      "query": "SELECT Id, ProductLicense__c, IsActive__c, LastLoginDate__c, Username__c, UniqueConstraint__c FROM LM_ProductLicenseUserAssignment__c"
+    }
+  ]
+}
