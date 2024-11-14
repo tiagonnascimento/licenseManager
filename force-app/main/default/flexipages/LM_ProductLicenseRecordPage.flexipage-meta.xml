@@ -412,6 +412,9 @@
                             <value>Project__c</value>
                         </valueListItems>
                         <valueListItems>
+                            <value>BoardOfDirectors__c</value>
+                        </valueListItems>
+                        <valueListItems>
                             <value>Price__c</value>
                         </valueListItems>
                         <valueListItems>
