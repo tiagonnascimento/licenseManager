@@ -1,7 +1,12 @@
 {
   "orgName": "tnascimento company",
   "edition": "Developer",
-  "features": ["EnableSetPasswordInApi"],
+  "features": [
+    "EnableSetPasswordInApi",
+    "AnalyticsAdminPerms",
+    "DevelopmentWave",
+    "EinsteinAnalyticsPlus"
+  ],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
