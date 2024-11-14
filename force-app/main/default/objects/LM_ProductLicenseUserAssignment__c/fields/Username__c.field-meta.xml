@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Username__c</fullName>
-    <description>Username of the user assigned to this product license. This is not a direct User lookup because of the multi-org capabilities of this app.</description>
+    <description
+  >Username of the user assigned to this product license. This is not a direct User lookup because of the multi-org capabilities of this app.</description>
     <externalId>false</externalId>
-    <inlineHelpText>Username of the user assigned to this product license. This is not a direct User lookup because of the multi-org capabilities of this app.</inlineHelpText>
+    <inlineHelpText
+  >Username of the user assigned to this product license. This is not a direct User lookup because of the multi-org capabilities of this app.</inlineHelpText>
     <label>Username</label>
-    <length>255</length>
+    <length>80</length>
     <required>true</required>
     <trackTrending>false</trackTrending>
     <type>Text</type>

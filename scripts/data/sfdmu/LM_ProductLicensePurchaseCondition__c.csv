@@ -1,0 +1,9 @@
+BoardOfDirectors__c,ContractEndDate__c,ContractStartDate__c,Domain__c,Id,IsActive__c,Name,Price__c,ProductLicense__c,ProductLicense__r.Name,Project__c,PurchaseDate__c,Quantity__c,VicePresidency__c
+Tecnologia Engenharia e CX,2026-11-01,2024-11-01,,a026t000006ZfuKAAS,true,PLPCN-0005,40,a006t00000Cnwk1AAB,Partner Community for Communications Cloud Advanced - EE - Members,Atendimento,2024-11-01,4940,Estratégia e Inovação
+Tecnologia Engenharia e CX,2026-11-01,2024-11-01,,a026t000006ZfuUAAS,true,PLPCN-0008,0.02,a006t00000CnwkpAAB,Customer Community Plus for Communications Cloud - Advanced - EE - Logins,Atendimento,2024-11-01,4000000,Operações e Infraestrutura
+Marketing e Vendas,2026-11-01,2024-11-01,,a026t000006ZfuFAAS,true,PLPCN-0004,65,a006t00000CnwjwAAB,Communications Cloud Growth - Sales & Service - Enterprise Edition,Fênix,2024-11-01,1487,Operações e Infraestrutura
+Marketing e Vendas,2026-11-01,2024-11-01,,a026t000006ZfuPAAS,true,PLPCN-0006,10,a006t00000CnwkGAAR,Contract Lifecycle Management for Communications Cloud - EE,Atendimento,2024-11-01,10338,Operações e Infraestrutura
+Marketing e Vendas,2026-11-01,2024-11-01,,a026t000006Z044AAC,true,PLPCN-0001,100,a006t00000CnqMfAAJ,Communications Cloud Advanced - Sales & Service - Enterprise Edition,Fênix,2024-01-01,4500,Estratégia e Inovação
+Tecnologia Engenharia e CX,2027-11-01,2024-11-01,,a026t000006ZPleAAG,true,PLPCN-0002,75,a006t00000CnqMfAAJ,Communications Cloud Advanced - Sales & Service - Enterprise Edition,Atendimento,2024-11-01,2338,Operações e Infraestrutura
+Marketing e Vendas,2026-11-01,2024-11-01,,a026t000006ZPlfAAG,true,PLPCN-0003,10,a006t00000CnvSWAAZ,Communications Cloud Advanced - Sales & Service - EE (Restricted Use),Atendimento,2024-11-01,3500,Estratégia e Inovação
+Marketing e Vendas,2026-11-01,2024-11-01,,a026t000006ZfuQAAS,true,PLPCN-0007,10,a006t00000CnwkkAAB,CRM Analytics for Communications Cloud - Enterprise Edition,Fênix,2024-11-01,187,Estratégia e Inovação
