@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WaveDashboard
+  xmlns="http://soap.sforce.com/2006/04/metadata"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>
+    <content xsi:nil="true" />
+    <application>License_Manager_Analytics_App</application>
+    <dateVersion>1</dateVersion>
+    <description
+  >Main dashboard for License Management containing insights on the license consumption</description>
+    <masterLabel>License Management Dashboard</masterLabel>
+</WaveDashboard>
