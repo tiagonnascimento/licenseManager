@@ -51,35 +51,6 @@
                 <identifier>wave_waveDashboard</identifier>
             </componentInstance>
         </itemInstances>
-        <mode>Replace</mode>
-        <name>top</name>
-        <type>Region</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentName>home:eventContainer</componentName>
-                <identifier>home_eventContainer</identifier>
-            </componentInstance>
-        </itemInstances>
-        <mode>Replace</mode>
-        <name>bottomLeft</name>
-        <type>Region</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentName
-        >runtime_sales_activities:todayTaskContainer</componentName>
-                <identifier
-        >runtime_sales_activities_todayTaskContainer</identifier>
-            </componentInstance>
-        </itemInstances>
-        <mode>Replace</mode>
-        <name>bottomRight</name>
-        <type>Region</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
         <itemInstances>
             <componentInstance>
                 <componentName>home:recentRecordContainer</componentName>
@@ -92,14 +63,26 @@
                 <identifier>home_assistant</identifier>
             </componentInstance>
         </itemInstances>
-        <mode>Replace</mode>
-        <name>sidebar</name>
+        <itemInstances>
+            <componentInstance>
+                <componentName
+        >runtime_sales_activities:todayTaskContainer</componentName>
+                <identifier
+        >runtime_sales_activities_todayTaskContainer</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>home:eventContainer</componentName>
+                <identifier>home_eventContainer</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>main</name>
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>License Manager Home Page</masterLabel>
-    <parentFlexiPage>home__desktopDefault</parentFlexiPage>
     <template>
-        <name>home:desktopTemplate</name>
+        <name>industries_common:homeTemplateOneRegion</name>
     </template>
     <type>HomePage</type>
 </FlexiPage>
