@@ -52,6 +52,15 @@ This application is distributed in form of an unlocked package. You can build yo
 
 After installation, please assign the required permission sets to the user. Also, as this app contains CRM analytics recipe, assign the permission set _License Manager_ to the Analytics Integration User and execute the recipe. You can also schedule the recipe to execute in a determined agenda.
 
+### Data sample loading
+
+On `scripts/data/sfdmu` folder there are some data sample that can be used to load sample data after package installation. For that you can use [Salesforce Data Move Utility](https://help.sfdmu.com/) plugin and authenticated in the target org execute:
+
+```
+cd scripts/data/sfdmu
+sf sfdmu run --sourceusername csvfile --targetusername <TARGET USERNAME>
+```
+
 ### Contributing to the Repository
 
 If you find any issues or opportunities for improving this repository, fix them! Feel free to contribute to this project by [forking](http://help.github.com/fork-a-repo/) this repository and making changes to the content. Once you've made your changes, share them back with the community by sending a pull request. See [How to send pull requests](http://help.github.com/send-pull-requests/) for more information about contributing to GitHub projects.
