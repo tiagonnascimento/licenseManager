@@ -5,7 +5,7 @@
       "action" : "load",
       "sources" : [ ],
       "parameters" : {
-        "fields" : [ "Id", "ProductLicense__c", "ContractEndDate__c", "ContractStartDate__c", "Domain__c", "IsActive__c", "Price__c", "Project__c", "PurchaseDate__c", "Quantity__c" ],
+        "fields" : [ "Id", "ProductLicense__c", "BoardOfDirectors__c", "ContractEndDate__c", "ContractStartDate__c", "Domain__c", "IsActive__c", "Price__c", "Project__c", "PurchaseDate__c", "Quantity__c", "VicePresidency__c" ],
         "dataset" : {
           "type" : "connectedDataset",
           "label" : "LM_ProductLicensePurchaseCondition__c",
@@ -40,7 +40,7 @@
       "action" : "load",
       "sources" : [ ],
       "parameters" : {
-        "fields" : [ "Id", "Name", "Type__c", "UserType__c", "AvailableQuantity__c", "AssignedQuantity__c", "Quantity__c", "AssignmentType__c" ],
+        "fields" : [ "Id", "Name", "AssignmentType__c", "Type__c", "UserType__c", "AvailableQuantity__c", "AssignedQuantity__c", "Quantity__c", "Org__c" ],
         "dataset" : {
           "type" : "connectedDataset",
           "label" : "LM_ProductLicense__c",
@@ -106,7 +106,7 @@
       "action" : "load",
       "sources" : [ ],
       "parameters" : {
-        "fields" : [ "Id", "Name", "AssignmentType__c", "Type__c", "AvailableQuantity__c", "AssignedQuantity__c", "Quantity__c", "UserType__c" ],
+        "fields" : [ "Id", "Name", "AssignmentType__c", "Type__c", "UserType__c", "AvailableQuantity__c", "AssignedQuantity__c", "Quantity__c", "Org__c" ],
         "dataset" : {
           "type" : "connectedDataset",
           "label" : "LM_ProductLicense__c",
@@ -137,7 +137,7 @@
       "action" : "load",
       "sources" : [ ],
       "parameters" : {
-        "fields" : [ "Id", "Name", "Type__c", "UserType__c", "AvailableQuantity__c", "AssignedQuantity__c", "Quantity__c", "AssignmentType__c" ],
+        "fields" : [ "Id", "Name", "AssignmentType__c", "Type__c", "UserType__c", "AvailableQuantity__c", "AssignedQuantity__c", "Quantity__c", "Org__c" ],
         "dataset" : {
           "type" : "connectedDataset",
           "label" : "LM_ProductLicense__c",
