@@ -48,7 +48,7 @@ Based on the Product License Personas, it's possible to implement automations to
 
 ### Distribution and Installation
 
-This application is distributed in form of an unlocked package. You can build your own app based on the code or simply enter in contact to get the package ID and install it directly in a target org.
+This application is distributed in form of an unlocked package. You can build your own app based on the code or simply get the package ID on the `sfdx-project.json` and install it directly in your org. Installation key is `Vai Corinthians`.
 
 After installation, please assign the required permission sets to the user. Also, as this app contains CRM analytics recipe, assign the permission set _License Manager_ to the Analytics Integration User and execute the recipe. You can also schedule the recipe to execute in a determined agenda.
 
