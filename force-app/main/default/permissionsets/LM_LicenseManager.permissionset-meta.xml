@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
         <application>LicenseManager</application>
         <visible>true</visible>
     </applicationVisibilities>
-    <description
-  >Permission Set to grant access to License Manager Lightning App</description>
+    <description>Permission Set to grant access to License Manager Lightning App</description>
     <fieldPermissions>
         <editable>true</editable>
         <field>LM_ProductLicensePersona__c.Query__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LM_ProductLicensePurchaseCondition__c.BoardOfDirectors__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -19,6 +23,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>LM_ProductLicensePurchaseCondition__c.IsActive__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LM_ProductLicensePurchaseCondition__c.VicePresidency__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

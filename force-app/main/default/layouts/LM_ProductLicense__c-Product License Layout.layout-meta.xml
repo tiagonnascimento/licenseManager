@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
     <layoutSections>
         <customLabel>false</customLabel>
@@ -6,6 +6,10 @@
         <editHeading>true</editHeading>
         <label>Information</label>
         <layoutColumns>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Org__c</field>
+            </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>Name</field>
@@ -31,11 +35,11 @@
                 <field>AvailableQuantity__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Edit</behavior>
                 <field>UserType__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Edit</behavior>
                 <field>AssignmentType__c</field>
             </layoutItems>
         </layoutColumns>
@@ -67,12 +71,13 @@
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <layoutSections>
-        <customLabel>false</customLabel>
+        <customLabel>true</customLabel>
         <detailHeading>false</detailHeading>
         <editHeading>true</editHeading>
-        <layoutColumns />
-        <layoutColumns />
-        <layoutColumns />
+        <label>Custom Links</label>
+        <layoutColumns/>
+        <layoutColumns/>
+        <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
     <relatedLists>
@@ -99,13 +104,11 @@
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
-        <relatedList
-    >LM_ProductLicenseUserAssignment__c.ProductLicense__c</relatedList>
+        <relatedList>LM_ProductLicenseUserAssignment__c.ProductLicense__c</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
-        <relatedList
-    >LM_ProductLicensePurchaseCondition__c.ProductLicense__c</relatedList>
+        <relatedList>LM_ProductLicensePurchaseCondition__c.ProductLicense__c</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
@@ -116,4 +119,10 @@
     <showInteractionLogPanel>false</showInteractionLogPanel>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
+    <summaryLayout>
+        <masterLabel>00hDK000002most</masterLabel>
+        <sizeX>4</sizeX>
+        <sizeY>0</sizeY>
+        <summaryLayoutStyle>Default</summaryLayoutStyle>
+    </summaryLayout>
 </Layout>
