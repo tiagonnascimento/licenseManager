@@ -1,8 +1,12 @@
-AssignmentType__c,Id,Name,Quantity__c,Type__c,UserType__c,Weight__c
-Named,a006t00000CnvSWAAZ,Communications Cloud Advanced - Sales & Service - EE (Restricted Use),3500,Base,Internal,90
-Named,a006t00000CnqMfAAJ,Communications Cloud Advanced - Sales & Service - Enterprise Edition,6838,Base,Internal,100
-,a006t00000CnwkGAAR,Contract Lifecycle Management for Communications Cloud - EE,10338,Add-on,,
-Named,a006t00000CnwjwAAB,Communications Cloud Growth - Sales & Service - Enterprise Edition,1487,Base,Internal,80
-Login,a006t00000CnwkpAAB,Customer Community Plus for Communications Cloud - Advanced - EE - Logins,4000000,Base,External,
-,a006t00000CnwkkAAB,CRM Analytics for Communications Cloud - Enterprise Edition,187,Add-on,,
-Named,a006t00000Cnwk1AAB,Partner Community for Communications Cloud Advanced - EE - Members,4940,Base,External,70
+AssignmentType__c,Id,Name,Org__c,Quantity__c,Type__c,UserType__c,Weight__c
+,a03DK00000ZZWkiYAH,Knowledge,B2C,20,Add-on,,
+Login,a03DK00000ZZWkdYAH,Customer Community Plus for Communications Cloud - Advanced - EE - Logins,B2C,20000000,Base,External,80
+Named,a03DK00000ZZWkYYAX,Partner Community for Communications Cloud Advanced - EE - Members,B2C,34009,Base,External,90
+Named,a03DK00000ZZWkTYAX,Communications Cloud Advanced - Sales & Service  EE (Restricted Use),B2C,8706,Base,Internal,100
+Named,a03DK00000ZZWfcYAH,Communications Cloud Advanced - Sales & Service - Enterprise Edition,B2B,6838,Base,Internal,100
+,a03DK00000ZZWfdYAH,Contract Lifecycle Management for Communications Cloud - EE,B2B,10338,Add-on,,
+Named,a03DK00000ZZWfeYAH,Communications Cloud Growth - Sales & Service - Enterprise Edition,B2B,1487,Base,Internal,80
+Login,a03DK00000ZZWffYAH,Customer Community Plus for Communications Cloud - Advanced - EE - Logins,B2B,4000000,Base,External,
+,a03DK00000ZZWfgYAH,CRM Analytics for Communications Cloud - Enterprise Edition,B2B,187,Add-on,,
+Named,a03DK00000ZZWfhYAH,Partner Community for Communications Cloud Advanced - EE - Members,B2B,4940,Base,External,70
+Named,a03DK00000ZZWfbYAH,Communications Cloud Advanced - Sales & Service - EE (Restricted Use),B2B,3500,Base,Internal,90
